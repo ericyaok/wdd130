@@ -32,7 +32,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: ipx solid gray;
+    border: 1px solid gray;
     padding: 2rem;
     background-color: gainsboro;
     color: black;
@@ -45,7 +45,7 @@ aside img {
 }
 
 p {
-    padding: 0;
+    padding: 0px;
 
 }
 

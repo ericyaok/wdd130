@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --accent1-color: ;
-    --accent2-color: ;
+    --primary-color: #2F3C7E;
+    --secondary-color: tomato;
+    --accent1-color: pink;
+    --accent2-color: yellow;
 
-    --heading-font: ;
-    --paragraph-font: ;
+    --heading-font: Roboto;
+    --paragraph-font: Roboto;
 
-    --nav-background-color: ;
-    --nav-link-color: ;
-    --nav-hover-link-color: ;
-    --nav-hover-background-color: ;
+    --nav-background-color: navy;
+    --nav-link-color: red;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: darkgreen;
 }
 
 body {

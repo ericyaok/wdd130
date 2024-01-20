@@ -13,7 +13,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -23,4 +23,34 @@ img {
 
 p {
     padding: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: ipx solid gray;
+    padding: 2rem;
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid gray;
 }

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root {
+    --primary-color: #2F3C7E;
+    --secondary-color: tomato;
+    --accent1-color: pink;
+    --accent2-color: yellow;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, article {
+    position: absolute;
+}
+
+h1 {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+article {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 150px;
+    padding: 20px;
+}
+
+article img {
+    width: 200px;
+    float: right;
+}
+
+.social img {
+    width: 100px;
+    height: auto;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}

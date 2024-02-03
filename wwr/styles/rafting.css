@@ -60,11 +60,65 @@ article img {
 }
 
 .social img {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
+
 
 .adventures img {
     width: 100%;
     height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+header a {
+    display: block;
+    padding: 20px;
+    margin: 5px;
+}
+
+header a:hover {
+    color: black;
+    background-color: var(--secondary-color);
+}
+
+section {
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "left center right";
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social {
+    grid-area: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    grid-area: center;
+    text-align: center;
 }

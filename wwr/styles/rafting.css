@@ -287,3 +287,50 @@ th {
 .offer-cell {
     width: 35%;
 }
+
+
+/* home header */
+#home-heading {
+    font-size: 3.5rem;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color: aliceblue;
+    height: 300px;
+    padding: 20px;
+}
+
+.trip-callout {
+    background-color: tomato;
+    padding: 30px;
+    transform: skewX(-20deg);
+}
+
+.trip-callout p, .trip-callout a {
+    transform: skewX(20deg);
+}
+
+.sign-up {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-section {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.bottom-section > .offer {
+    width: 300px;
+}
+.bottom-section img {
+    width: 300px;
+    height: 200px;
+}
+

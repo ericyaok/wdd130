@@ -15,9 +15,10 @@ a {
     text-decoration: none;
 }
 
-body {
+.container {
     max-width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
 .hero {
@@ -202,4 +203,87 @@ input[type="text"] {
 
 label {
     font-size: 1.2rem;
+}
+
+/* trip page css */
+ .offerings {
+    display: flex;
+    justify-content: space-between;
+ }
+ .offerings img {
+    width: 300px;
+    height: 200px;
+ }
+
+ .offer {
+    border: 1px solid dodgerblue;
+ }
+
+ .offer:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .offer-text {
+    padding: 10px;
+ }
+
+ .offer-text h3 {
+    color: #2F3C7E;
+ }
+
+ .offer-text span {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+ }
+.offer-heading {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-top: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.callout {
+    position: absolute;
+    top: 350px;
+    left: -120px;
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* offer table css */
+
+.offerings-table {
+    margin-top: 70px;
+}
+
+table, th, tr, td {
+    border: 1px solid dodgerblue;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    color: navy;
+    font-size: 1.5rem;
+}
+
+.offer-cell {
+    width: 35%;
 }

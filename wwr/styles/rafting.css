@@ -304,13 +304,19 @@ th {
 }
 
 .trip-callout {
-    background-color: tomato;
+    background-color: white;
     padding: 30px;
     transform: skewX(-20deg);
+    border: 2px solid red;
 }
 
 .trip-callout p, .trip-callout a {
     transform: skewX(20deg);
+    font-size: 1.5rem;
+}
+
+.trip-callout a {
+    color: red;
 }
 
 .sign-up {
@@ -333,4 +339,3 @@ th {
     width: 300px;
     height: 200px;
 }
-
